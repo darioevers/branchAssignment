@@ -9,8 +9,20 @@ const sumOfNumbers = (arr) => {
 console.log(sumOfNumbers([1, 2, 3, 4]));
 
 // REDUCE:
-const sumOfNumbers = (arr) => {
+const sumOfNumbersTwo = (arr) => {
   let sum = arr.reduce((a, b) => a + b, 0);
   return sum;
 };
-console.log(sumOfNumbers([1, 2, 3, 4]));
+console.log(sumOfNumbersTwo([1, 2, 3, 4]));
+
+// WHILE LOOP
+const sumOfNumbersThree = (arr) => {
+  if (!Array.isArray(arr)) return;
+  let totalNumber = 0,
+    i = -1;
+  while (++i < arr.length) {
+    totalNumber += arr[i];
+  }
+  return totalNumber;
+};
+console.log(sumOfNumbersThree([1, 2, 3, 4]));
