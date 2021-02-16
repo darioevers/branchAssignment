@@ -1,9 +1,3 @@
-// I cannot find assignments where I know about 3 different solving ways.
-
-// Assignment 1: Loop, .reduce, ?????
-// Assignment 2: Ternary Operator, If else, Switch
-// Assignment 3: Ternary Operator, If else, Switch
-
 // ASSIGNMENT 1:
 const sumOfNumbers = (arr) => {
   var sum = 0;
@@ -13,3 +7,5 @@ const sumOfNumbers = (arr) => {
   return sum;
 };
 console.log(sumOfNumbers([1, 2, 3, 4]));
+
+// Assignment 2: Ternary Operator, If else, Switch ???
