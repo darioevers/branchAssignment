@@ -10,8 +10,7 @@ const sumOfNumbers = (arr) => {
   var sum = 0;
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
-    product *= arr[i];
   }
-  return `The sum of adding up ${arr} is ${sum}, and the product of multiplying ${arr} is ${product}.`;
+  return sum;
 };
 console.log(sumOfNumbers([1, 2, 3, 4]));
